@@ -39,7 +39,7 @@ export default function Home() {
               Available for New Projects
             </div>
             <h2 className="font-syne font-extrabold leading-[1.02] tracking-[-3px] text-ink mb-6"
-              style={{ fontSize: 'clamp(48px,7vw,96px)' }}>
+              style={{ fontSize: 'clamp(48px,7vw,80px)' }}>
               Solving paid<br />media challenges.<br />
               <em className="not-italic font-fraunces font-light text-blue">Scaling</em> revenue.
             </h2>
