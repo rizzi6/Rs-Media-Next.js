@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        syne: ["Outfit", "sans-serif"],
+        outfit: ["Outfit", "sans-serif"],
         jakarta: ['"Plus Jakarta Sans"', "sans-serif"],
         fraunces: ["Fraunces", "serif"],
       },
