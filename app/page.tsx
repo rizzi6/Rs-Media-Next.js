@@ -38,11 +38,11 @@ export default function Home() {
               <span className="w-[7px] h-[7px] rounded-full bg-green pulse-dot flex-shrink-0" />
               Available for New Projects
             </div>
-            <h1 className="font-syne font-extrabold leading-[1.02] tracking-[-3px] text-ink mb-6"
+            <h2 className="font-syne font-extrabold leading-[1.02] tracking-[-3px] text-ink mb-6"
               style={{ fontSize: 'clamp(48px,7vw,96px)' }}>
               Solving paid<br />media challenges.<br />
               <em className="not-italic font-fraunces font-light text-blue">Scaling</em> revenue.
-            </h1>
+            </h2>
             <p className="text-muted leading-[1.85] mb-11" style={{ fontSize: 'clamp(15px,1.7vw,17px)', maxWidth: 500 }}>
               Partnering with eCommerce brands and service businesses across the USA, Australia, UK and Europe to build full-funnel paid acquisition systems — from strategy to execution to scale.
             </p>
