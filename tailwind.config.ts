@@ -26,12 +26,10 @@ const config: Config = {
         muted2: "#a0a0ab",
         border: "#e8e8ec",
       },
+      
       fontFamily: {
-        /* font-syne class now uses NeutralFace for all headings */
-        syne: ["NeutralFace", "sans-serif"],
-        /* font-jakarta class now uses Outfit for all body text */
+        syne: ["Geom", "sans-serif"],
         jakarta: ["Outfit", "sans-serif"],
-        /* Fraunces kept for italic accent text */
         fraunces: ["Fraunces", "serif"],
       },
       animation: {
