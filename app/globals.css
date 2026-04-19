@@ -2,32 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ─────────────────────────────────────────
-   NEUTRALFACE FONT
-   Download from:
-   https://www.fontshare.com/fonts/neutralface
-   or purchase from its original foundry.
-   Place the font files inside /public/fonts/
-   then the @font-face below loads them.
-───────────────────────────────────────── */
-@font-face {
-  font-family: "NeutralFace";
-  src: url("/fonts/NeutralFace.woff2") format("woff2"),
-       url("/fonts/NeutralFace.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "NeutralFace";
-  src: url("/fonts/NeutralFace-Bold.woff2") format("woff2"),
-       url("/fonts/NeutralFace-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -58,7 +32,6 @@ body {
   border-radius: 2px;
 }
 
-/* Pulse dot animation */
 @keyframes pulseDot {
   0%, 100% { transform: scale(1); opacity: 1; }
   50% { transform: scale(1.5); opacity: 0.6; }
@@ -67,7 +40,6 @@ body {
   animation: pulseDot 2.4s ease-in-out infinite;
 }
 
-/* Marquee animation */
 @keyframes marqueeAnim {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
@@ -76,7 +48,6 @@ body {
   animation: marqueeAnim 28s linear infinite;
 }
 
-/* Scroll reveal */
 .reveal {
   opacity: 0;
   transform: translateY(28px);
@@ -92,7 +63,6 @@ body {
 .reveal-delay-3 { transition-delay: 0.3s; }
 .reveal-delay-4 { transition-delay: 0.4s; }
 
-/* Card hover top bar */
 .card-hover-bar {
   position: relative;
   overflow: hidden;
@@ -113,7 +83,6 @@ body {
   transform: scaleX(1);
 }
 
-/* Process row hover */
 .proc-row {
   transition: padding-left 0.3s ease;
 }
@@ -129,7 +98,6 @@ body {
   color: white;
 }
 
-/* FAQ accordion */
 .faq-answer {
   max-height: 0;
   overflow: hidden;
